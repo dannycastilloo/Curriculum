@@ -1,0 +1,52 @@
+#foto{
+    margin-top: 3%;
+    width: 20%;
+    height: 20%;
+    border-radius: 80%;
+}
+
+body{
+    text-align: center;
+}
+
+.exp{
+    margin: 11%;
+}
+
+#about{
+    font-size: 20px;
+}
+
+#proyectos{
+    margin-left: 10%;
+}
+
+input{
+    width: 40%;
+}
+
+#enviar{
+    width: 10%;
+}
+
+#credit{
+    font-size: 18px;
+}
+
+#fondo{
+    background-color: #1A1D33;
+    height: 100px;
+}
+
+.sub{
+    color: white;
+    margin-top: 2%;
+}
+
+#a{
+    color: white;
+}
+
+.card{
+    margin-left: 37%;
+}

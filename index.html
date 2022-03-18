@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#foto">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#exp">Aprendizaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#projects">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <img src="img/foto.jpg" alt="Foto" id="foto">
+    <br><br>
+    <h1>Danny Castillo</h1>
+    <br><br>
+
+    <div class="container">
+        
+        <div class="row">
+            <p id="about">Soy un estudiante de la carrera de Desarrollo y Diseño de Software en Tecsup. Me encuentro en el tercer ciclo y tengo experiencia con el uso de tecnologías como HTML, CSS, Python, Java y MySQL.</p>
+        </div>
+
+        <br><br><br>
+        <div class="row" id="fondo">
+
+        <h2 class="sub" id="exp">Aprendizaje</h2>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <br><br><br>
+                <h2>Tecsup</h2>
+                <p class="exp">Estudiante de Tecsup, donde he desarrollado la gran mayoría de mis conocimientos a través de muchos cursos llenos de información y retroalimentación hacia mis proyectos realizados.</p>
+            </div>
+
+            <div class="col">
+                <br><br><br>
+                <h2>Engitronic</h2>
+                <p class="exp">Culminación del curso de Arduino e IoT, empleada la tecnología C# para el desarrollo de este programa donde creé circuitos variados para diferentes propósitos.</p>
+            </div>
+        
+            <div class="col">
+                <br><br><br>
+                <h2>Cisco</h2>
+                <p class="exp">Clases desarrolladas con Enigtronic y Cisco a través de Netacad y clases virtuales donde di mis primeros pasos en la programación mediante el aprendizaje de Python.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br><br>
+    <div class="container">
+      <div class="row" id="fondo">
+
+        <h2 class="sub" id="projects">Proyectos</h2>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container" id="proyectos">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/proyecto1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Curso de programación</h5>
+                      <p class="card-text">Página web con teoría de Python, HTML, CSS, Bootstrap y JQuery para programadores novatos.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/proyecto2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tienda de música</h5>
+                      <p class="card-text">Como trabajo final de mi segundo ciclo, desarrollé un sitio web con un sistema de venta de instrumentos.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/proyecto3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Base de datos con Java</h5>
+                      <p class="card-text">Proyecto de Java y MySQL realizado en el curso de Programación Orientada a Objetos.</p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <br><br><br><br>
+    <h2 id="habilidades">Habilidades</h2>
+    <br>
+    <button type="button" class="btn btn-dark"><b>HTML</b></button>
+    <button type="button" class="btn btn-dark"><b>CSS</b></button>
+    <button type="button" class="btn btn-dark"><b>Bootstrap</b></button>
+    <button type="button" class="btn btn-dark"><b>JavaScript</b></button>
+    <button type="button" class="btn btn-dark"><b>Java</b></button>
+    <button type="button" class="btn btn-dark"><b>Python</b></button>
+    
+    <br><br><br><br><br>
+
+
+    <h2 id="contacto">Contacto</h2>
+    <br>
+    <input type="text" placeholder="Nombre"><br><br>
+    <input type="email" placeholder="Correo"><br><br>
+    <input type="tel" placeholder="Celular"><br><br>
+    <textarea name="Mensaje" id="" cols="100" rows="10" placeholder="Mensaje"></textarea><br><br>
+    <button type="button" class="btn btn-dark" id="enviar">Enviar</button>
+
+    <br><br><br><br>
+
+    <p id="credit"><b>Desarrollado por Danny Castillo</b></p>
+    <p id="a">#06</p>
+
+
+</body>
+</html>
